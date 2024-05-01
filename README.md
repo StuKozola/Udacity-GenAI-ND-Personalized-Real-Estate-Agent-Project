@@ -24,6 +24,11 @@ Ensure personalization emphasizes characteristics appealing to the buyer without
 ##### Listing Presentation:
 Output the personalized listing(s) as a text description of the listing.
 
+## Project Output
+The project output is a Jupyter notebook that demonstrates the personalized real estate agent and an example app built with gradio that shows the use of the personalized real estate agent.  Below is the example app built with gradio.
+
+![app built with gradio](./images/app.gif)
+
 ## Getting Started
 ### Prerequisites
 The following packages were used in this project:
@@ -38,24 +43,23 @@ The following packages were used in this project:
 - langchain-openai
 - pandas
 
-### Install pipenv
+### 1. Install pipenv
 ```bash
 pipenv install
 pipenv shell
 ```
 
-### Clone this repository
+### 2. Clone this repository
 ```bash
 git clone https://github.com/StuKozola/Udacity-GenAI-ND-Personalized-Real-Estate-Agent-Project.git
 cd Udacity-GenAI-ND-Personalized-Real-Estate-Agent-Project
 ```
 
-### Install the required packages
+### 3. Install the required packages
 ```bash
 pip install -r requirements.txt
 ```
 
-### Opegit n the Jupyter notebook
-```bash
-# embed and image
-![image](./images/app.gif)
+### 4. Open the Jupyter notebook to run the project
+The [HomeMatch.ipynb](HomeMatch.ipynb) contains the code for the personalized real estate agent project.  Open the notebook and run the code cells to see the project in action.
+
