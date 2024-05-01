@@ -1,0 +1,6 @@
+**/.devcontainer/
+**/.github
+**/homematch_db
+.env
+Pipfile
+Pipfile.lock
